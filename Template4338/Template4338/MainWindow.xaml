@@ -33,11 +33,11 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
-
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
 
         </Grid.RowDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>

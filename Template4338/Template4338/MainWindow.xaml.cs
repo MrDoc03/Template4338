@@ -24,5 +24,11 @@ namespace Template4338
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _4338ZverevAE info = new _4338ZverevAE();
+            info.Show();
+        }
     }
 }
